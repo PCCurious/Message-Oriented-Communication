@@ -13,7 +13,9 @@ Inside of this folder has two files: **publisher.tcl** and **subscriber.tcl** wh
 **_WINDOWS USERS_**
 
 **0-** Nats and TCL needs to be installed on the machine in order to work properly. 
+
 **-> TCL** Please go to https://www.tcl3d.org/bawt/download.html and download **BAWT 2.3.1 Tcl-Bl - Windows Installer 8.6.13** which is the stable version and run the setup. Please keep in mind to install the proper **32 bit or 64 bit** version.
+
 **-> NATS** Please go to https://nats.io/download/ to download or directly to https://github.com/nats-io/nats-server/releases/tag/v2.10.14 and download **nats-server-v2.10.14-windows-select_your_version.zip**. This is the stable version and upon unzip, run the nats-server.exe, as a **Prompt will appear**. 
 
 **1-** Next, open two **Windows PowerShell** on this folder _or navigate to this folder on the PowerShell using the cd command_.
@@ -29,7 +31,9 @@ Inside of this folder has two files: **publisher.tcl** and **subscriber.tcl** wh
 **_LINUX USERS_**
 
 **0-** Nats and TCL needs to be installed on the machine in order to work properly.
+
 **-> TCL** Normally TCL comes with the OS. If not, please install as usual for your linux machine. 
+
 **-> NATS** As TCL, it is possible to install as usual for your linux machine or if preferable you can go to https://nats.io/download/ to download or directly to https://github.com/nats-io/nats-server/releases/tag/v2.10.14 and download **nats-server-v2.10.14-linux-select_your_version.zip**. This version is stable and it is simple to run.
 
 **1-** After installing please open two **Terminals** on this folder _or navigate to this folder on Terminal using the cd command_.
@@ -47,4 +51,4 @@ Inside of this folder has two files: **publisher.tcl** and **subscriber.tcl** wh
 
 THE DEFAULT FILE RUNS ON SAME MACHINE ON LOCALHOST. IF NEEDED TO RUN ON OTHER MACHINE PLEASE REFER TO BOTH PUBLISHER.TCL AND SUBSCRIBER.TCL FILE, AT **$conn configure -servers nats://localhost:port** AND CHANGE **_LOCALHOST_** FOR THE DESIRED IP ADDRESS AND PORT OF THE SERVER MACHINE, AND THE FILE NATS-SERVER TO BE IN THE SERVER MACHINE OF YOUR CHOICE. PLEASE REMEBER TO OPEN THE PORT ON BOTH MACHINES AS FIREWALLS MIGHT BLOCK THEM.
 
-IN CASE OF ERROR ON TCL, IT MIGHT BE RELATED TO EXTENSIONS FOR THE PROJECT TO RUN. PLEASE GO TO https://github.com/Kazmirchuk/nats-tcl/releases/tag/v3.0 AND DOWNLOAD THE .ZIP FILE (WINDOWS) OR THE .TAR.GZ FILE (LINUX) AND EXTRACT IT TO THE INSTALLED TCL/LIB FOLDER, AND RE-RUN THE FILES.
+IN CASE OF ERROR ON TCL, IT MIGHT BE RELATED TO EXTENSIONS FOR THE PROJECT TO RUN. PLEASE GO TO https://github.com/Kazmirchuk/nats-tcl/releases/tag/v3.0 AND DOWNLOAD THE **.ZIP FILE (WINDOWS)** OR THE **.TAR.GZ FILE (LINUX)** AND **EXTRACT IT TO THE INSTALLED TCL/LIB FOLDER, THEN RE-RUN THE FILES.**
